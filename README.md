@@ -126,4 +126,35 @@ This milestone enhances the user experience by allowing new users to register, p
 
 ---
 
+Sure! Here’s a more concise version of the milestone:
+
+---
+
+## Milestone 6: Backend Implementation for Signup and Password Encryption
+
+In this milestone, we created a backend endpoint for user signup, ensuring secure storage of user data by encrypting passwords before saving them in the database.
+
+### Key Achievements:
+
+**Password Encryption:**
+   - Used `bcrypt` to hash passwords before storing them, ensuring passwords are never stored in plain text.
+
+**Backend API for Signup:**
+   - Created an endpoint to handle user registration, receiving and storing user data (name, email, encrypted password).
+
+**Storing User Data Securely:**
+   - Saved user data in the database with encrypted passwords for privacy and security.
+
+**Error Handling:**
+   - Implemented error messages for invalid data, like duplicate emails or weak passwords, and provided success responses.
+
+**Database Integration:**
+   - Integrated the backend with the database, creating models to store user data securely.
+
+**Security Best Practices:**
+   - Followed best practices with password hashing (bcrypt) and added salt to further secure passwords.
+
+---
+
+
 
