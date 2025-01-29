@@ -184,7 +184,7 @@ This milestone enhances the user interface by showcasing products in a structure
 
 ---
 
-## Milestone 9: Front-End Form for Product Input
+## Milestone 9: Front-End Form for Product Input 
 
 In this milestone, we created a form to allow users to add new products to the system.
 
