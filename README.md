@@ -154,7 +154,46 @@ In this milestone, we created a backend endpoint for user signup, ensuring secur
 **Security Best Practices:**
    - Followed best practices with password hashing (bcrypt) and added salt to further secure passwords.
 
+
 ---
 
+## Milestone 7: Backend Implementation for User Login
 
+In this milestone, we focused on implementing the login functionality on the backend, allowing users to authenticate securely.
+
+### Key Achievements:
+- **Login Endpoint**: Created an API endpoint to receive user credentials (email/username and password).
+- **Password Validation**: Used bcrypt to compare the entered password with the hashed password stored in the database.
+- **User Authentication**: Returned success or error responses based on credential validity.
+- **Security Best Practices**: Ensured password hashing to protect user data from being compromised.
+  
+This milestone sets up the user login process, validating credentials and ensuring data security during authentication.
+
+---
+
+## Milestone 8: Front-End Product Cards & Homepage Layout
+
+In this milestone, we focused on creating a dynamic front-end layout to display product cards on the homepage.
+
+### Key Achievements:
+- **Card Component**: Designed a reusable product card component that accepts product details as props (e.g., name, image, price).
+- **Homepage Layout**: Set up a grid or flexbox layout to display the product cards dynamically, iterating through the product list.
+- **Reusable Design**: Ensured consistency and a clean design across all product cards.
+
+This milestone enhances the user interface by showcasing products in a structured and visually appealing way, improving the browsing experience.
+
+---
+
+## Milestone 9: Front-End Form for Product Input
+
+In this milestone, we created a form to allow users to add new products to the system.
+
+### Key Achievements:
+- **Product Form**: Built a form that collects product details such as name, price, description, and multiple images.
+- **Multi-Image Input**: Implemented functionality to upload multiple product images.
+- **Future Enhancements**: Suggested the addition of admin access and user profiles for product management.
+
+This milestone sets the stage for adding products to the database, which will later be displayed on the homepage.
+
+---
 
